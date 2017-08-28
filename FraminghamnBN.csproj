@@ -33,19 +33,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Infer.Compiler">
-      <HintPath>..\infer\Bin\Infer.Compiler.dll</HintPath>
+      <HintPath>..\..\infer\Bin\Infer.Compiler.dll</HintPath>
     </Reference>
     <Reference Include="Infer.Learners">
-      <HintPath>..\infer\Bin\Infer.Learners.dll</HintPath>
+      <HintPath>..\..\infer\Bin\Infer.Learners.dll</HintPath>
     </Reference>
     <Reference Include="Infer.Learners.Recommender">
-      <HintPath>..\infer\Bin\Infer.Learners.Recommender.dll</HintPath>
+      <HintPath>..\..\infer\Bin\Infer.Learners.Recommender.dll</HintPath>
     </Reference>
     <Reference Include="Infer.Learners.Runners">
-      <HintPath>..\infer\Bin\Infer.Learners.Runners.dll</HintPath>
+      <HintPath>..\..\infer\Bin\Infer.Learners.Runners.dll</HintPath>
     </Reference>
     <Reference Include="Infer.Runtime">
-      <HintPath>..\infer\Bin\Infer.Runtime.dll</HintPath>
+      <HintPath>..\..\infer\Bin\Infer.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -56,17 +56,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ex.cs" />
     <Compile Include="FraminghamBN.cs" />
     <Compile Include="FraminghamModel.cs" />
+    <Compile Include="FraminghamRiskScore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
